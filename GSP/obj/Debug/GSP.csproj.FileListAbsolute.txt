@@ -1,1 +1,9 @@
 D:\GitHub\GSP\GSP\bin\Debug\GSP.exe.config
+D:\GitHub\GSP\GSP\obj\Debug\GSP.csprojResolveAssemblyReference.cache
+D:\GitHub\GSP\GSP\obj\Debug\MainWindow.baml
+D:\GitHub\GSP\GSP\obj\Debug\MainWindow.g.cs
+D:\GitHub\GSP\GSP\obj\Debug\App.g.cs
+D:\GitHub\GSP\GSP\obj\Debug\GSP_MarkupCompile.cache
+D:\GitHub\GSP\GSP\obj\Debug\GSP.g.resources
+D:\GitHub\GSP\GSP\obj\Debug\GSP.Properties.Resources.resources
+D:\GitHub\GSP\GSP\obj\Debug\GSP.csproj.GenerateResource.Cache
