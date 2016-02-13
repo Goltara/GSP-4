@@ -1,28 +1,31 @@
 ﻿namespace GSP.Services.Interfaces
 {
+    using System.Collections.Generic;
+    using System.Data.SQLite;
+
     using Models;
 
     public interface IDatabaseService
     {
         void Create();
 
-        void Connect();
+        void Connect(string db);
 
-        void Add(Password pass);
+        void Add(Password pass, SQLiteConnection con);
 
-        void Delete(Password pass);
+        void Delete(Password pass, SQLiteConnection con);
 
-        void Update(Password pass);
+        void Update(Password pass, SQLiteConnection con);
 
-        void All();
+        HashSet<Password> All(SQLiteConnection con);
 
-        Password FindByDomain(string domain);
+        Password FindByDomain(string domain, SQLiteConnection con);
 
-        Password FindById(int id);
+        Password FindById(int id, SQLiteConnection con);
 
-        Password FindByUsername(string username);
+        Password FindByUsername(string username, SQLiteConnection con);
 
-        void Backup();
+        void Backup(SQLiteConnection con);
 
         void Restore();
     }
